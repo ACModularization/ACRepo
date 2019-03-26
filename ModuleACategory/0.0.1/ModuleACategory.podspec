@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ModuleA"
+  s.name         = "ModuleACategory"
   s.version      = "0.0.1"
-  s.summary      = "ModuleA."
+  s.summary      = "ModuleACategory."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is ModuleA
+                    this is ModuleACategory
                    DESC
 
-  s.homepage     = "https://github.com/yymodularization/ModuleA"
+  s.homepage     = "https://github.com/yymodularization/ModuleACategory"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
-  # Or just: s.author    = "CasaTaloyum"
-  # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
-  # s.social_media_url   = "http://twitter.com/CasaTaloyum"
+  s.author             = { "Ace" => "aoe.orz@gmail.com" }
+  # Or just: s.author    = "Ace"
+  # s.authors            = { "Ace" => "aoe.orz@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/Ace"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yymodularization/ModuleA.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/yymodularization/ModuleACategory.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ModuleA/ModuleA/**/*.{h,m,swift}"
+  s.source_files  = "ModuleACategory/ModuleACategory/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,5 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-
+    s.dependency "CTMediator"
 end
