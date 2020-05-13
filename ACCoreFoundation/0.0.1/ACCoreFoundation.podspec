@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.ios.vendored_frameworks = "ACCoreFoundation/ACCoreFoundation/ThirdParty/*.framework"
+  s.ios.vendored_frameworks = "ACCoreFoundation/Frameworks/*.framework"
   # s.framework  = "SomeFramework"
   s.frameworks = "SystemConfiguration", "Security", "JavaScriptCore"
 
