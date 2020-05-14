@@ -119,6 +119,7 @@ Pod::Spec.new do |s|
   #
 
   s.ios.vendored_frameworks = "ACCoreFoundation/Frameworks/*.framework"
+  s.ios.vendored_libraries = "ACCoreFoundation/Frameworks/*.a"
   # s.framework  = "SomeFramework"
   s.frameworks = "SystemConfiguration", "Security", "JavaScriptCore"
 
