@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resources = "ACCoreFoundation/ACCoreFoundation/*.{bundle,png,jpg,json}", "ACCoreFoundation/ACCoreFoundation/*.strings"
+  s.resources = "ACCoreFoundation/Resources/*.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
@@ -123,7 +123,7 @@ Pod::Spec.new do |s|
   s.frameworks = "SystemConfiguration", "Security", "JavaScriptCore"
 
   # s.library   = "iconv"
-  s.libraries = "z", "c++"
+  s.libraries = "z", "c++","sqlite3"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
